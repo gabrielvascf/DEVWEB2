@@ -1,0 +1,51 @@
+body {
+    margin: 0 0;
+}
+.cabecalho {
+    margin: 10px 10%;
+    padding: auto 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    margin: auto 0;
+}
+
+.linha {
+    height: 8px;
+    width: 100%;
+    background-color: rgba(0, 36, 104, 0.651);
+}
+
+.capa {
+    width: 100%;
+    background-color: lightgray;
+}
+
+.imgcapa {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.conteudo {
+    margin: 0 10%;
+}
+
+.rodape {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.linha2 {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(37, 37, 37, 50%);
+}
+
+.formulario input, textarea {
+    display: block;
+}
