@@ -1,32 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Quem somos</title>
-</head>
-<body>
-    <div class="linha"></div>
-    <div class="cabecalho">
-        <img src="imagens/logo.png" alt="logo">
-        <div class="links"><a href="home.html">Home</a> | <a href="quemsomos.html">Quem somos</a> | <a href="contatos.html">Contato</a></div>
-    </div>
-    <div class="conteudo">
-        <h1>Quem somos</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure corporis ut ab, quisquam necessitatibus reprehenderit culpa? Ratione aliquid quas dolor, molestias adipisci eligendi delectus. Beatae iste mollitia expedita. Temporibus!
-        <h1>5 motivos para estudar</h1>
-        <ol>
-            <li>Material sempre atualizado</li>
-            <li>Tablets em sala de aula</li>
-            <li>Professores renomados</li>
-            <li>Universidade bem avaliada</li>
-            <li>Ótima localização</li>
-        </ol>
-        <div class="linha2"></div>
-        <h1>Objetivos</h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure id soluta nostrum voluptatibus veniam, eius excepturi reprehenderit minus perferendis debitis sunt ad optio tempore, dolorum quaerat nam repellendus veritatis non asperiores ipsam nulla doloribus? Quos.
-        <div class="rodape">Todos os direitos reservados</div>
-    </div>
-</body>
-</html>
+{% extends "index.html" %}
+{% block content %}
+    <h1>Quem somos</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure corporis ut ab, quisquam necessitatibus reprehenderit culpa? Ratione aliquid quas dolor, molestias adipisci eligendi delectus. Beatae iste mollitia expedita. Temporibus!
+    <h1>5 motivos para estudar</h1>
+    <ol>
+        <li>Material sempre atualizado</li>
+        <li>Tablets em sala de aula</li>
+        <li>Professores renomados</li>
+        <li>Universidade bem avaliada</li>
+        <li>Ótima localização</li>
+    </ol>
+    <div class="linha2"></div>
+    <h1>Objetivos</h1>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure id soluta nostrum voluptatibus veniam, eius excepturi reprehenderit minus perferendis debitis sunt ad optio tempore, dolorum quaerat nam repellendus veritatis non asperiores ipsam nulla doloribus? Quos.
+    <div class="rodape">Todos os direitos reservados</div>
+{% endblock %}

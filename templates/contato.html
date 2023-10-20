@@ -1,31 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="linha"></div>
-    <div class="cabecalho">
-        <img src="./imagens/logo.png" alt="">
-        <div class="links"><a href="home.html">Home</a> | <a href="quemsomos.html">Quem somos</a> | <a href="contatos.html">Contato</a></div>
-    </div>
-    <div class="conteudo">
-        <h1>Entre em contato</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, libero. Labore mollitia ipsum quibusdam hic?
-        <div class="linha2"></div>
-        <div class="formulario">
-            Seu e-mail:
-            <input type="email" name="" id="" class="email">
-            Assunto:
-            <input type="text" name="" id="" class="assunto">
-            Descrição:
-            <textarea name="Descrição" id="" cols="30" rows="10"></textarea>
-            <button type="submit">Enviar</button>
-        </div>
-    </div>
-    <div class="rodape">Todos os direitos reservados</div>
-</body>
-</html>
+{% extends "index.html" %}
+{% block content %}
+
+<h1>Entre em contato</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, libero. Labore mollitia ipsum quibusdam hic?
+<div class="linha2"></div>
+<div class="formulario">
+    Seu e-mail:
+    <input type="email" name="" id="" class="email">
+    Assunto:
+    <input type="text" name="" id="" class="assunto">
+    Descrição:
+    <textarea name="Descrição" id="" cols="30" rows="10"></textarea>
+    <button type="submit">Enviar</button>
+{% endblock %}

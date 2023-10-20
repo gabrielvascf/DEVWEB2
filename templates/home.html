@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="linha"></div>
-    <div class="cabecalho">
-        <img src="./imagens/logo.png" alt="logo">
-        <div class="links">
-            <a href="home.html">Home</a> | <a href="quemsomos.html">Quem somos</a> | <a href="contatos.html">Contato</a>
-        </div class="links">
-    </div>
-    <div class="capa">
-        <img src="/imagens/capa.png" alt="capa" class="imgcapa">
-    </div>
-        {% block content %}
-        {% endblock %}
-        <div class="rodape"><b>Todos os direitos reservados.</b></div>
-    </div>
-</body>
-
-</html>
+{% extends "index.html" %}
+{% block capa %}
+<div class="capa">
+    <img src="/static/imagens/capa.png" alt="capa" class="imgcapa">
+</div>
+{% endblock %}
+{% block content %}
+<h1>Sobre a universidade</h1>
+<p>Lorem <b>ipsum dolor</b> sit, amet consectetur adipisicing elit. Laborum voluptatum molestiae non iure velit ducimus quod odio nesciunt vel? Neque culpa assumenda veritatis totam odit hic similique laudantium deleniti, voluptatum recusandae exercitationem iure reprehenderit esse modi voluptas ratione natus aut sunt voluptatem earum labore harum! Delectus quisquam sint a, aspernatur, laborum sit quia hic itaque velit numquam, aliquid ullam mollitia eius repellat optio reiciendis! Voluptate unde earum suscipit molestiae eum expedita culpa aliquid ipsum, enim id, ut facilis vero distinctio tenetur repellat autem ipsa quas, perspiciatis nobis doloribus eveniet dolor modi. Neque recusandae quia dolorum enim aut laboriosam nulla perferendis, iure facilis, alias vel numquam voluptatum soluta delectus quasi illo.</p>
+<p>Lorem <b>ipsum dolor</b> sit amet consectetur, adipisicing elit. Necessitatibus saepe voluptatem ducimus consequatur rerum ut reiciendis autem amet, laboriosam cum illo distinctio neque praesentium sed nulla illum repellat veritatis fugiat dolorum adipisci asperiores accusamus? Earum, eum doloremque illo fugit voluptatem dolore optio architecto nihil? Voluptatibus in quibusdam molestiae nostrum natus, repudiandae exercitationem numquam sint, omnis eos totam iusto vitae excepturi impedit perspiciatis modi minus. Aut assumenda dolorum vero odio corporis porro ullam consequuntur, dolor ex blanditiis quod nostrum quos? Laudantium aliquam, ipsa eaque possimus temporibus placeat voluptates at iure vero nobis, ad voluptas officiis provident aperiam. Nam aspernatur praesentium assumenda exercitationem est! Voluptates qui earum animi facere quia in reiciendis commodi id! Officia accusamus quo, sequi molestias doloribus consequuntur. Quisquam vero sit earum nam totam.</p>
+{% endblock %}
